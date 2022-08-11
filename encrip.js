@@ -1,7 +1,11 @@
 
 var encriptar = document.getElementById(texto);
 
-function reemplazar() {
+function encriptar() {
+   
+   if ("e" = replace("enter"));
+
+
     encriptar.replace("e","enter");
 
     encriptar.replace("o","ober");
