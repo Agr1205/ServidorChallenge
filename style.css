@@ -1,0 +1,217 @@
+body{
+    font-family: 'Montserrat', sans-serif, 'PT Sans', sans-serif;
+    background-color: #cccccc;
+}
+
+.caja{
+    background: linear-gradient(#65b8a6,#1f192f 70%);
+    width: 940px;
+    height: 700px;
+    margin: 20px  auto 0;
+}
+
+.Logo{
+    display: inline-block;
+    margin: 10px;
+}
+
+.titulo{
+    display: inline-block;
+    position: absolute;
+    margin: 20px 0;
+    top: 30px;  
+    font-weight: bold;
+    font-size: 33px;
+    font-style: italic;
+    color:#f0f7da;
+}
+
+main section{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.3%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    /*border: 2px solid #000000;*/
+    /*border-radius: 10px;*/
+}
+
+.seccion1{
+    position: relative;
+    top: 75px;
+    right: 30px;
+    width: 530px;
+    height: 84%;
+    padding: 30px 10px;
+    margin: 20px;
+}
+
+.seccion1 textarea{
+    width: 90%;
+    margin: 50px 20px;
+    border: none;
+    border-radius: 10px;
+    text-align: left;
+    background-color:#f0f7da;
+}
+
+.seccion1 textarea::placeholder{
+    color: #1f192f;
+    font-family: 'Montserrat', sans-serif, 'PT Sans', sans-serif;
+    font-size: 20px;
+}
+
+.seccion1 p{
+  font-size: 13px;
+  display: block;
+  text-align: left;
+  position: relative;
+  top: 150px;
+  color:#f0f7da;
+}
+
+.seccion1 button{
+    position: relative;
+    top: 170px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: solid;
+    border-width: 1px;
+}
+
+.seccion1 button:hover{
+    border-color: floralwhite;
+    background-color: darkblue;
+    color:#ffffff;
+}
+
+.seccion2{
+    position: relative;
+    right: 30px;
+    height: 95%;
+     margin: 20px 10px;
+}
+
+.seccion2 img{
+    width: 100%;
+    height: auto;
+    vertical-align: center;
+    position: relative;
+    right: 20px;
+}
+
+.seccion2 textarea{
+    width: 90%;
+    height: 31%;
+    border: none;
+    border-radius: 10px;
+    background-color:#f0f7da;
+}
+
+.seccion2 textarea::placeholder{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif, 'PT Sans', sans-serif;
+    color: #1f192f;
+}
+
+.seccion2 button{
+    position: relative;
+    top: 67px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border-width: 1px;
+}
+
+.seccion2 button:hover {
+    border-color: floralwhite;
+    background-color: darkblue;
+    color: #ffffff;
+}
+
+footer{
+    width: 940px;
+    margin: 0 auto; 
+    text-align: center;
+    background-color: #f0f7da;
+    color: #1f192f;
+    padding: 10px 0;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 480px) {
+    .caja{
+        width:auto;
+        height: 100%;
+        margin: 0 30px;
+    }
+    
+    .Logo{
+        position: relative;
+        left: 125px;
+    }
+
+    .titulo{
+        position: relative;
+        left:0;
+        margin: 0 2px;
+        text-align: center;
+    }
+
+    .seccion1{
+        height: 400px;
+        margin: 0 0 30px 0;
+        position: relative;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        padding: 50px 0;
+    }
+
+    .seccion1 textarea{
+        width: 90%;
+        margin: 0 10px;
+    }
+
+    .seccion1 p{
+        position: absolute;
+        top: 70%;
+    }
+
+    .seccion1 button{
+        display: inline-block;
+        top: 50px;
+        width: 110px;
+        text-align: center;
+        padding: 10px 5px;
+    }
+    
+    .seccion2{
+        height: 400px;
+        margin: 40px 0 0;
+        position: relative;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        padding: 50px 0;
+    }
+
+    .seccion2 button{
+        top: 30px;
+    }
+
+    .seccion2 img{
+        display: none;
+    }
+
+    footer{
+        width: auto;
+        margin: 0 30px;
+    }
+}
