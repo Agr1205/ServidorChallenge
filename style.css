@@ -135,6 +135,7 @@ main section{
     border-radius: 10px;
     font-weight: bold;
     border-width: 1px;
+    display: none;
 }
 
 .seccion2 button:hover {
