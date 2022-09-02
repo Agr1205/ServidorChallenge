@@ -104,6 +104,14 @@ main section{
     right: 20px;
 }
 
+.seccion2 p{
+    font-size: 20px;
+    color: #f0f7da;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+}
+
 .seccion2 textarea{
     width: 90%;
     height: 31%;

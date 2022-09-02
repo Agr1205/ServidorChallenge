@@ -28,7 +28,8 @@ function encriptar() {
         }
         
     }
-   
+    document.querySelector(".muneco").style.display = "none";
+    
     inputmensaje.value = resultado
     inputText.value = "";
     
