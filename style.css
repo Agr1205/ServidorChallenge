@@ -128,14 +128,13 @@ main section{
 
 .seccion2 button{
     position: relative;
-    top: 67px;
+    top: 0;;
     width: 200px;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
     font-weight: bold;
     border-width: 1px;
-    display: none;
 }
 
 .seccion2 button:hover {
